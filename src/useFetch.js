@@ -31,7 +31,7 @@ const useFetch = (url) => {
                 
             })
 
-            return () => abortControl.abort()
+            return () => abortControl.abort();
 
        }, [url])
 
