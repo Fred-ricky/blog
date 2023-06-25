@@ -44,7 +44,7 @@ const Create = () => {
                 <label htmlFor="">Blog author</label>
                 <select 
                     value={author}
-                    onChange={(e) => setBody(e.target.value)} 
+                    onChange={(e) => setAuthor(e.target.value)} 
                 >
                     <option value="mario">mario</option>
                     <option value="yoshi">yoshi</option>
